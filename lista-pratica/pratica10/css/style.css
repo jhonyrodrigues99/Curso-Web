@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+        header{
+            background-color: black;
+            text-align: center;
+            color: rgb(207, 12, 12);
+        }
+
+        h1::after, h1::before {
+            color: white;
+            content: '...';
+        }
+
+        h2 {
+            text-align: right;
+            color: rgb(201, 1, 1);
+        }
+
+        h3 {
+            color: rgb(202, 1, 1);
+            text-decoration: underline;
+        }
+
+        .paragrafo_2 {
+            background-color: #cbc3b9;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav{
+            text-align: center;
+            background-color: rgb(202, 1, 1);
+        }
+
+        aside{
+            background-color: rgb(202, 1, 1);
+            text-align: center;
+        }
+
+        aside a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer{
+            background-color: black; 
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }

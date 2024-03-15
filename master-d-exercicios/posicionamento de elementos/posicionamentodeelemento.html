@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Elementos </title>
+
+    <style>
+        .cabecalho {
+            width: 50%;
+            text-align: center;
+            position: relative;
+            left: 250px;
+            background-color: rgba(123, 123, 203, 0.486);
+            padding: 20px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        img {
+            width: 99%;
+            opacity: 60%;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 30px;
+            font-size: 18px;
+            margin-top: 170px;
+        }
+
+        .topright {
+            position: absolute;
+            top: 8px;
+            right: 30px;
+            font-size: 18px;
+            margin-top: 170px;
+        }
+
+        .bottomleft {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            margin-top: 200px;
+        }
+
+        .bottomright {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+            margin-top: ;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h2>Exercício prático - Unidade 9</h2>
+    </div>
+
+    <p>Neste exercício prático vamos identificar os cantos e o centro da imagem</p>
+
+    <div class="container">
+        <img src="pictures/masterd.png" alt="" width="300px" height="auto">
+        <div class="topleft">Canto superior esquerdo</div>
+        <div class="topright">Canto superior direito</div>
+        <div class="bottomleft">Canto inferior esquerdo</div>
+        <div class="bottomright">Canto inferior direito</div>
+        <div class="center">Centro</div>
+    </div>
+
+
+</body>
+
+</html>

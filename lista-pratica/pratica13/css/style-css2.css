@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@font-face {
+    font-family: 'especial';
+    src: url('SpecialElite-Regular.ttf') format(truetype);
+}
+
+body {
+    background-color: #1D1D1D;
+}
+
+header {
+    text-align: center;
+    color: rgb(207, 12, 12);
+    height: 194px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 0.5px solid white;
+}
+
+nav {
+    color: white;
+    background-color: rgb(202, 1, 1);
+    padding: 50px;
+    font-family: 'especial', sans-serif;
+}
+
+h2 {
+    text-align: right;
+    color: rgb(201, 1, 1);
+}
+
+.borda {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.homepage {
+    background-image: linear-gradient(to right, #1D1D1D, #C52233, #ffffff);
+    padding: 50px 100px;
+    font-family: 'especial', sans-serif;
+}
+
+.icones {
+    color: white;
+    padding-top: 18px;
+    padding-left: 498px;
+    padding-bottom: 50px;
+
+}
+
+.fa-instagram {
+    margin: 0px 100px;
+}
+
+.fa-phone {
+    color: red;
+
+}
+
+.fa-envelope {
+    color: red;
+
+}
+
+.fa-location-dot {
+    color: red;
+}
+
+.fone,
+.mail,
+.location {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 0px 50px;
+    font-family: 'especial', sans-serif;
+    width: 25%;
+}
+
+.mail {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <h2>Formulário simples com Input</h2>
+        Escreva uma frase <input type="text" name="Nome" id="Nome" value="">
+        <hr>
+        <h2>Formulário com box de texto</h2>
+        <textarea cols="30" rows="10"> Escreva aqui as suas dúvidas! </textarea>
+        <hr>
+        <h2>Formulário de Password</h2>
+        <input type="password" name="Senha">
+        <hr>
+        <h2>Formulário de Checkbox - Esse você pode escolher todas as opções favoráveis a você</h2>
+        <input type="checkbox" id="color1" name="color1" value="yellow"> Amarelo <br>
+        <input type="checkbox" id="color2" name="color2" value="blue"> Azul <br>
+        <input type="checkbox" id="color3" name="color3" value="green"> Verde <br>
+        <hr>
+        <h2> Formulário Radio Buttons - Esse você pode escolher apenas uma opção </h2>
+        <input type="radio" id="option" name="color3" value="yellow"> 
+        Amarelo <br>
+        <input type="radio" id="option" name="color3" value="blue"> Azul <br>
+        <input type="radio" id="option" name="color3" value="green"> Verde <br>
+        <hr>
+        <h2>Formulário Select</h2>
+        <select name="select">
+            <option value="amarelo">amarelo</option>
+            <option value="azul">azul</option>
+            <option value="verde">verde</option>
+        </select>
+        <hr>
+        <h2>Formulário Button</h2>
+            <button type="submit"> Enviar</button>
+            <button type="reset"> Apagar </button>
+            <button type="button"> Botão </button>
+            <hr>
+            <h2> Input de Data e Hora do Nasc.</h2>
+            Data do seu nascimento <br>
+            <input type="date" id="birthday" name="data nascimento"> <br>
+                Data e hora do seu nascimento <br>
+            <input type="datetime-local" id="birthdaytime" name="data e hora nascimento">
+            <hr>
+            <h2>Input de E-mail</h2>
+            Digite o seu E-mail <input type="email" name="email" id="email">
+            <hr>
+            <h2>Input de mês e ano</h2>
+            Selecione o mês e o ano
+            <input type="month" name="mês" id="mês">
+            <hr>
+            <h2>Input que obriga o usuário a por um valor numérico</h2>
+            Digite um número 
+            <input type="number" name="numero" id="numero">
+            <hr>
+            <h2>Input de barra deslizante, para escolher um valor numérico</h2>
+            De uma nota de 0 a 10
+            <input type="range" id="range" name="range" min="0" max="10">
+            <input type="button" value="Submit">
+            <hr>
+            <h2>Input de Search</h2>
+            Pesquisar
+            <input type="search" name="pesquisar" id="pesquisar">
+            <input type="button" value="Search">
+            <hr>
+            <h2>Input para obrigatoriedade do número de telefone</h2>
+            Deixe o seu número para contacto
+            <input type="tel" name="numerotelefone" id="numerotelefone">
+            <hr>
+            <h2>Input para Hora</h2>
+            Que horas são?
+            <input type="time" name="hora" id="hora">
+            <hr>
+            <h2>Input para selecionar uma semana do ano</h2>
+            Qual semana do ano você quer ver?
+            <input type="week" name="semana" id="semana">
+            <hr>
+    </form>
+
+</body>
+</html>

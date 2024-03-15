@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O meu Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #EEE7D4;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;} 
+        .col-3 {width: 25%;} 
+        .col-4 {width: 33.33%;} 
+        .col-5 {width: 41.66%;} 
+        .col-6 {width: 50%;} 
+        .col-7 {width: 58.33%;} 
+        .col-8 {width: 66.66%;} 
+        .col-9 {width: 75%;} 
+        .col-10 {width: 83.33%;} 
+        .col-11 {width: 91.66%;} 
+        .col-12 {width: 100%;}
+
+        [class*="col-"] { float: left; }
+
+        .row:after { content: ""; display: table; clear: both;}
+
+        .header { background-color: #83BDBE;
+                 color:#223240; 
+                 padding: 30px; 
+                 text-align: center; 
+                 font-size: 35px;
+                }
+
+        .topnav { background-color: #223240; 
+            padding: 10px; 
+            font-size: 24px;
+        }
+
+        #float-right{ float: right;}
+
+        ul { list-style-type: none; 
+            margin: 0; 
+            padding: 10px; 
+        }
+
+        li {display: inline;}
+
+        li a{ padding:10px 20px; 
+            text-decoration: none; 
+            color: #EEE7D4; 
+        } 
+        
+        a:hover{ background-color: #D9895B; }
+
+        #section1{ margin-top:20px; }
+
+        .coluna4{padding: 5px; }
+
+        #section2 { background-color: white; 
+            margin-top: 20px; 
+            margin-bottom: 20px;
+        }
+
+        .footer { background-color: #223240; 
+            color:#EEE7D4; 
+            padding: 10px; 
+        }
+
+        .coluna3 { padding:10px; }
+
+        .coluna3-border{ border-left: 1px solid #EEE7D4; 
+            padding:10px;
+        }
+
+
+    </style>
+    <script src="https://kit.fontawesome.com/f18c9e47c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="pictures/logo400px-removebg-preview.png" alt="">
+        <h1>O meu website</h1>
+        <p>Construido com CSS Grid e com comportamento responsivo.</p>
+    </div>
+
+    <div class="topnav">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i></a></li> 
+            <li><a href= "#">Sobre</a></li> 
+            <li><a href="#">Projectos</a></li> 
+            <li><a href="#">Contactos</a></li> 
+            <li id="float-right"><a href=""><i class="fas fa-search"></i></a></li> 
+        </ul> 
+    </div>
+
+    <div class="row" id="section1">
+
+        <div class="coluna4 col-4"> 
+            <img id="image_header" src="pictures/monitor300px-removebg-preview.png" alt="Imagem" width='100%'> 
+        </div>
+
+        <div class="coluna8 col-8">
+            <h2>Título 2</h2> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
+            Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+            Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+            Praesent scelerisque tortor sed accumsan convallis.</p>
+            <a href="#">Saiba +</a> 
+        </div>
+    </div>
+
+    <div class="row" id="section2">
+        <div class="coluna4 col-4">
+            <h2>Título 3.1</h2>
+            <img id="image_header" src="pictures/Notebook300px-removebg-preview.png" alt="Imagem" width='100%'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+            <a class="#">Saiba +</a> 
+        </div>
+
+        <div class="coluna4 col-4">
+            <h2>Título 3.2</h2>
+            <img id="image_header" src="pictures/kitgamer300px-removebg-preview.png" alt="Imagem" width='100%'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+            <a class="#">Saiba +</a> 
+        </div>
+
+        <div class="coluna4 col-4">
+            <h2>Título 3.3</h2>
+            <img id="image_header" src="pictures/cadeira300px-removebg-preview.png" alt="Imagem" width='100%'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+            <a class="#">Saiba +</a> 
+        </div>
+    </div>
+
+    <div class=" row footer">
+        <div class="coluna3 col-3">
+            <h3>Footer 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+
+        <div class="coluna3-border col-3">
+            <h3>Footer 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+
+        <div class="coluna3-border col-3">
+            <h3>Footer 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+
+        <div class="coluna3-border col-3">
+            <h3>Footer 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+    </div>
+</body>
+
+</html>

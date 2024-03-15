@@ -1,0 +1,345 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'especial';
+    src: url('SpecialElite-Regular.ttf') format(truetype);
+}
+
+
+.header{ text-align:center; 
+        background-color: #1D1D1D; 
+    }
+
+h1, h2, h3{ 
+    color: #C52233; 
+}
+
+h1{ 
+    font-size:56px; 
+} 
+h3{ 
+    font-size:30px;
+    text-decoration:underline;
+}
+
+p { 
+    font-size: 36px; 
+}
+
+.nav, .aside, .footer{ 
+    text-align:center; 
+    font-size:30px; 
+}
+
+.nav{ 
+    background-color: #C52233; 
+}
+
+.footer { 
+    background-color: #262626; 
+    display: inline-block; 
+    width:100%; 
+}
+
+#picJD{ 
+    width:500px; 
+}
+
+.nomepagina{ 
+    font-size: 44px;
+    text-align: right; 
+}
+
+.paragrafo2{ background-color: #D7D7D7;
+}
+
+span#JohnDoe_text{ 
+    font-weight: bold; 
+}
+
+h1::before, h1::after{ 
+    content:". . ."; 
+    color: white;
+}
+
+a:link, a:visited, a:hover { 
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover{ 
+    font-size:36px; 
+}
+
+#tit_gosto{ 
+    font-family: "Lucida Console", "Courier New", monospace; text-decoration: none; 
+    color: white; 
+    font-size:4em;
+    text-transform: uppercase; 
+    text-align: center; 
+}
+
+div.gostos{ 
+    background-color: #D7D7D7; 
+}
+
+h4{ 
+    font-family: "Lucida Console", "Courier New", monospace; 
+    color: rgb(197, 34, 51); font-size:2em; 
+    letter-spacing:2px; 
+    text-indent: 30px; 
+}
+
+#books, #plane{ 
+    width:200px; 
+}
+
+.article{ 
+    background-image: linear-gradient(to right, #1D1D1D, #C52233, #ffffff); 
+}
+
+.aside{
+    width: 100%;
+}
+
+.link-1{ 
+    text-align: center; 
+}
+
+a.link1{ 
+    font-size: 60px; 
+    color: white; 
+    border: 2px solid #C52233; 
+    text-decoration:none; 
+}
+
+a.link1:hover{ 
+    text-decoration:underline; 
+}
+
+#ler, #viajar{ 
+    border: 1px dotted white; 
+    display: inline-block; 
+    width:45%; 
+}
+
+a.menu{ 
+    border-left: 6px solid white; 
+}
+
+#tit-header{ position: absolute; 
+    width:50%; 
+    top: 280px; 
+    left: 25%;
+     
+}
+
+.nav{ 
+    padding:50px; 
+}
+
+a.menu{ margin-left:50px; 
+    padding-left:10px; 
+}
+
+.nomepagina{ 
+    padding:50px 100px; 
+}
+
+h3{ 
+    margin-left: 20px; 
+}
+
+.quem-image,.quem-paragrafo1, .quem-paragrafo2{
+    margin-left:30px; 
+    display: inline-block; 
+}
+
+.quem-image{ 
+    float:left; 
+}
+
+.quem-paragrafo1, .quem-paragrafo2{ 
+    max-width:33.3%; 
+    padding: 30px; 
+}
+
+.gostos{ 
+    margin-top:50px; 
+}
+
+.pref-ler-viajar{ 
+    float: right; 
+}
+
+#ler, #viajar{ 
+    padding:2%; 
+}
+
+.botão{
+    float:right; 
+    font-size:40px; 
+}
+
+a.botão::before{ 
+    content:"____"; 
+    color: white; 
+}
+
+body{ 
+    background-color: #1D1D1D; 
+}
+
+img#picJD1, img#picJD3{ 
+    width:200px; 
+    border-radius:100px; 
+    border: 0.5px solid white; 
+}
+
+img#picJD1 { 
+    opacity:0.2; 
+}
+
+img#picJD3 { 
+    opacity:0.8; 
+}
+
+img#picJD2 { 
+    width:250px; 
+    border-radius:125px; 
+    border: 0.5px solid white; 
+}
+
+h2{ 
+    font-family: 'especial', sans-serif; 
+}
+
+.fab, .fas{ 
+    font-size:25px; 
+    color:white; 
+    margin-top:20px; 
+}
+
+.fas{ 
+    color: rgb(197, 34, 51); 
+}
+
+.redes-sociais{ 
+    text-align:center; 
+    border-bottom: none; 
+    padding-bottom:50px; 
+}
+
+i.fab.fa-instagram-square { 
+    margin-left:100px; 
+    margin-right:100px;
+}
+
+#telefone, #mail, #morada{ 
+    display: inline-block; 
+    width:25%; 
+    padding: 0px 50px; 
+}
+
+#mail{ 
+    border-right: 1px solid white; 
+    border-left: 1px solid white; 
+}
+
+.contactos-texto{ 
+    color: white; 
+}
+
+ul { 
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    overflow: hidden; 
+}
+
+li { 
+    float: left; 
+}
+
+li a { 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+li a:hover { 
+    background-color: #82202A; 
+}
+
+div.gallery { margin: 2%; 
+    border: 0.5px solid black; 
+    float: left; 
+    width: 20%; 
+}
+
+div.gallery:hover { 
+    border: 1px solid white; 
+}
+
+div.gallery img { 
+    width: 100%; 
+    height: auto;
+}
+
+div.desc { 
+    padding: 15px; 
+    color:white; 
+    text-align: center; 
+    font-size:16px; 
+}
+
+ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+li { 
+    float: left; 
+}
+
+li a { 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+li a:hover { 
+    background-color: #82202A; 
+}
+
+div.gallery { 
+    margin: 2%; 
+    border: 0.5px solid black; 
+    float: left; 
+    width: 20%; 
+}
+
+div.gallery:hover { 
+    border: 1px solid white; 
+}
+
+div.gallery img { 
+    width: 100%; 
+    height: auto; 
+}
+
+div.desc { 
+    padding: 15px; 
+    color:white; 
+    text-align: center; 
+    font-size:16px; 
+}
+
+#books, #plane{ 
+    border-radius:150px;
+}

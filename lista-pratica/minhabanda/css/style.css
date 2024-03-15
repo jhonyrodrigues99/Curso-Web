@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'special';
+    src: url('piecesttf.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'sangre';
+    src: url('sangrettf.ttf') format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'special', sans-serif;
+    font-size: 50px;
+}
+
+header h3 {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(140, 71, 71);
+}
+
+header h1, h3{
+    padding: 20px;
+}
+
+header p {
+    text-align: justify;
+    padding: 20px;
+    width: 65%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+nav {
+    display: block;
+    background-color: black;
+    padding: 20px;
+}
+
+ul {
+    display: inline;
+    padding: 20px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    font-family: 'sangre', sans-serif;
+    font-size: 20px;
+}
+
+ul a:hover {
+    background-color: lightslategray;
+    color: red;
+    padding: 10px;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    float: right;
+}
