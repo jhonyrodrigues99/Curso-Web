@@ -10,14 +10,6 @@
     src: url('sangrettf.ttf') format(truetype);
 }
 
-* {
-    margin: 0px;
-}
-
-body {
-   
-}
-
 header {
     text-align: center;
 }
@@ -33,7 +25,8 @@ header h3 {
     color: rgb(140, 71, 71);
 }
 
-header h1, h3{
+header h1,
+h3 {
     padding: 20px;
 }
 
@@ -51,7 +44,7 @@ header p {
 nav {
     display: block;
     background-color: black;
-    padding: 10px;
+    padding: 13px;
 }
 
 ul {
@@ -66,7 +59,6 @@ ul a {
     transition-duration: 0.5s;
     font-family: 'sangre', sans-serif;
     font-size: 20px;
-    padding: 10px;
 }
 
 ul a:hover {
@@ -89,17 +81,16 @@ ul a:hover {
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content: space-evenly;
 
-    padding-bottom: 40px;
-    margin: auto;
-    max-width: 1000px;
-    min-width: 350px;
-    
+
+    padding: 0px 0px 60px 0px;
+    margin: 0px 119px 50px 119px;
+    background-color: black;
+    color: white;
 }
 
-.item > p {
+.item>p {
     font-size: 20px;
     padding-bottom: 20px;
     font-weight: bold;
@@ -119,7 +110,6 @@ main {
 
 .tour {
     text-align: center;
-    padding : 30px 0px 40px 0px;
     font-family: 'sangre', sans-serif;
     font-size: 40px;
 }
@@ -152,20 +142,21 @@ main {
 .container2 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center; 
-    align-items: center;
+    justify-content: center;
 
     background-color: black;
     color: white;
+    margin-right: 40px;
+
 }
 
-.container2  p {
+.container2 p {
     font-size: 15px;
     font-weight: bold;
 }
 
 .item2 {
-    padding: 0px 0px 0px 60px;  
+    padding: 40px 0px 0px 40px;
 }
 
 .bilhete {
@@ -182,9 +173,43 @@ main {
     transition-duration: 1s;
 }
 
+.interacao {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+}
 
+.class {
+    font-size: 25px;
+    text-align: center;
+    color: darkgray;
+    padding-bottom: 40px;
+}
 
+form a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    float: right;
+}
 
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
 
+footer {
+    text-align: center;
+    padding-top: 60px;
+}
 
+footer i {
+    padding: 5px;
+}
 
+span {
+    text-decoration: underline;
+}
