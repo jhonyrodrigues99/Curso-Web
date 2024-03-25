@@ -45,15 +45,18 @@ header p {
 nav {
     display: block;
     background-color: black;
-    padding: 13px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
 }
 
-ul {
+
+li {
     display: inline;
     padding: 20px;
 }
 
-ul a {
+li a {
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -75,7 +78,7 @@ ul a:hover {
 .dropbtn {
     background-color: red;
     color: white;
-    padding: 10px;
+    padding: 7px;
     font-weight: bold;
     font-size: 15px;
 }
@@ -100,12 +103,12 @@ ul a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    }
+}
 
 .dropdown:hover {
-        background-color: white;
-        color: #000000;
-    }
+    background-color: white;
+    color: #000000;
+}
 
 .fa-magnifying-glass {
     color: white;
