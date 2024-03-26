@@ -47,7 +47,6 @@ nav {
     background-color: black;
     padding-top: 10px;
     padding-bottom: 5px;
-
 }
 
 
@@ -56,7 +55,7 @@ li {
     padding: 20px;
 }
 
-li a {
+li > a {
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -70,17 +69,24 @@ ul a:hover {
     color: red;
 }
 
+.fa-magnifying-glass {
+    color: white;
+    float: right;
+    padding: 5px 10px 0px 0px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
 .dropbtn {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 7px;
     font-weight: bold;
     font-size: 15px;
+    border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -103,16 +109,6 @@ ul a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.dropdown:hover {
-    background-color: white;
-    color: #000000;
-}
-
-.fa-magnifying-glass {
-    color: white;
-    float: right;
 }
 
 .disco {
@@ -256,6 +252,11 @@ footer i {
 
 footer p {
     padding-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
 
 span {
