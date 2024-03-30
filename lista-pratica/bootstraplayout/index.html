@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Bootstrap e Layout Básico</title>
+
+    <style>
+        @media (min-width: 576px) {}
+
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            flex-flow: row wrap;
+
+            background-color: darkcyan;
+            height: 250px;
+            color: white;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding: 30px;
+        }
+
+        .item {
+            background-color: black;
+            width: 300px;
+            border: 1px solid white;
+        }
+
+        .nome {
+            width: 300px;
+            margin-left: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            flex-flow: row nowrap;
+
+            background-color: darkseagreen;
+
+
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <header class="container">
+        <div class="item">
+            <p>Logo</p>
+        </div>
+        <div class="nome">
+            <p>Nome</p>
+        </div>
+    </header>
+
+    <nav class="container2">
+        <div class="menu">
+            <p>Menu</p>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -50,10 +50,18 @@ nav {
     box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.183);
 }
 
+ul {
+    padding-left: 0px;
+}
+
+ul a:hover {
+    background-color: lightslategray;
+    color: red;
+}
 
 li {
     display: inline;
-    padding: 20px;
+    padding: 10px;
 }
 
 li>a {
@@ -65,15 +73,11 @@ li>a {
     font-size: 20px;
 }
 
-ul a:hover {
-    background-color: lightslategray;
-    color: red;
-}
-
 .fa-magnifying-glass {
+    display: block;
     color: white;
     float: right;
-    padding: 5px 10px 0px 0px;
+    padding: 5px 12px 0px 0px;
 }
 
 .dropdown {
