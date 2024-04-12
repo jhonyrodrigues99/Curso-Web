@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Layout Bootstrap</title>
+
+    <style>
+        header {
+            height: 220px;
+            background-color: darkcyan;
+        }
+
+        #logo {
+            height: 150px;
+            width: 250px;
+        }
+
+        .col-sm-4 {
+            height: 250px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+
+        .col-sm-3 {
+            height: 100px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+
+        }
+
+        .col-12 {
+            height: 70px;
+        }
+
+        nav {
+            background-color: darkslategray;
+            height: 80px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        span {
+            background-color: white;
+            padding: 17px;
+        }
+
+        table {
+            border-collapse: collapse;
+            padding-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="container-fluid">
+
+        <div class="row p-3 text-white">
+
+            <div class="bg-black border border-white col-sm-3 ps-1 mt-3" id="logo">Logo</div>
+
+            <div class="col-9 mt-3">Nome</div>
+        </div>
+        
+    </header>
+
+    <nav class="container-fluid">
+
+            <ul class="list-unstyled list-inline pt-4">
+
+                <li class="list-inline-item"><a href="#"><span class="rounded-1 text-dark">Home</span></a></li>
+
+                <li class="list-inline-item text-primary"><a href="#">Serviços</a></li>
+
+                <li class="list-inline-item text-primary"><a href="#">Sobre</a></li>
+
+                <li class="list-inline-item "><a href="#" class="text-secondary">Contactos</a></li>
+
+            </ul>
+            
+        <hr class="text-white border-2">
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <div class="bg-secondary col-sm-4">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-bordered caption-top">
+                        <caption class="bg-dark text-white text-center fs-5">Valores Serviços</caption>
+                        <thead>
+                            <tr>
+                                <th>Serviço</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <td>Webdesign</td>
+                                <td>25 euros/hora</td>
+                            </tr>
+                            <tr>
+                                <td>Fotografia</td>
+                                <td>100 euros/sessão</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="bg-secondary col-sm-4 pt-4" > <img src="imagem/i-love-my-job350.webp" alt=""></div>
+            <div class="bg-secondary col-sm-4 pt-5"><span class="bg-warning rounded-2 fw-bold">I am Warning</span></div>
+        </div>
+    </section>
+
+    <section class="container text-white mt-2">
+        <div class="row">
+            <div class="bg-primary col-sm-3 ">Contacto</div>
+            <div class="bg-primary col-sm-3 ">Social Media</div>
+            <div class="bg-primary col-sm-3 ">Localização</div>
+            <div class="bg-primary col-sm-3 ">Política de Privacidade</div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="bg-black text-white mt-2 pt-4 col-12">Copyright <i class="bi bi-c-circle"></i> 2024 Jhony Souza. Todos os direitos Reservados.</div>
+        </div>
+    </footer>
+</body>
+</html>
