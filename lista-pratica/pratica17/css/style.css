@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+#img1, #img2, #img3 {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.bnt {
+    
+}
+
+.btn:hover {
+    background-color: lightgrey;
+}
