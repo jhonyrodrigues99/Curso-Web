@@ -29,7 +29,7 @@
 
     footer {
       height: 150px;
-      margin: 0px;
+      margin-top: 100px;
     }
 
   </style>
@@ -71,9 +71,11 @@
   </nav>
 
   <div class="container mt-5">
-      <h1 class="text-center">Nome da Banda</h1>
-      <h6 class="text-center">Descrição breve da banda</h6>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptate dolore iste veritatis a eum impedit explicabo illum dolorem dignissimos possimus cupiditate aliquid facilis temporibus, doloremque adipisci est dolor autem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, officia! Explicabo temporibus vero officiis. Quae autem tempora eveniet, error, aliquam vel, quidem modi quas ipsum libero reprehenderit voluptatibus repudiandae iusto!</p>
+      <h1 class="text-center mb-3">AQUELA BANDA</h1>
+      <h6 class="text-center text-secondary mb-4">AQUELA BANDA que toca e você nunca mais esquece!</h6>
+      <p><span class="fw-bolder">AQUELA BANDA</span> teve início em uma tarde ensolarada de sábado, quando quatro amigos de infância se reuniram em um velho porão para compartilhar suas paixões pela música. <span class="text-decoration-underline fw-bold">João, Maic, Pedro e Ramon</span>, cada um com sua habilidade musical única, decidiram unir forças e formar uma banda. Entre risadas, acordes desafinados e batidas improvisadas, eles perceberam que tinham algo especial acontecendo ali. <br> <br>
+        
+      Enquanto tentavam encontrar um nome para a banda, surgiram várias ideias, mas nadaparecia certo. Foi então que Pedro, com um sorriso no rosto, sugeriu simplesmente<span class="fw-bolder">"AQUELA BANDA"</span>, evocando a atmosfera descontraída e familiar que compartilhavam. Todosconcordaram instantaneamente, sentindo que aquele nome capturava perfeitamente aessência de sua amizade e de sua jornada musical. E assim, com uma risada compartilhadae um nome escolhido, <span class="fw-bold">AQUELA BANDA</span> nasceu.</p>
     </div>
   </div>
 
@@ -81,9 +83,9 @@
 
   <div class="container">
     <div class="row mt-5">
-      <img src="pictures/capaeletronic250.jpg" alt="" class="col-4 img-fluid">
-      <img src="pictures/capaindie250.jpg" alt="" class="col-4 img-fluid">
-      <img src="pictures/caparock250.jpg" alt="" class="col-4 img-fluid">
+      <a class="col-4 img-fluid" href="pictures/eletronica.jpg" target="_blank"><img src="pictures/capaeletronic250.jpg" alt="" ></a>
+      <a class="col-4 img-fluid" href="pictures/indie.jpg" target="_blank"><img src="pictures/capaindie250.jpg" alt=""></a>
+      <a class="col-4 img-fluid" href="pictures/rock.jpg" target="_blank"><img src="pictures/caparock250.jpg" alt=""></a>
     </div>
   </div>
 
@@ -152,22 +154,25 @@
     </div>
   </div>
 
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-3">
-        <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+  <form>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="E-mail" aria-label="Last name">
+        </div>
       </div>
-      <div class="col-3">
-        <input type="text" class="form-control" placeholder="E-mail" aria-label="Last name">
+      <div class="form-floating mt-3 col-6 mx-auto">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Mensagem</label>
+        <input class="btn btn-primary float-end mt-2" type="submit" value="Submit">
       </div>
     </div>
-    <div class="form-floating mt-3 col-6 mx-auto">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-      <label for="floatingTextarea2">Mensagem</label>
-    </div>
-  </div>
+  </form>
   
-  <footer class="container-fluid bg-body-tertiary mt-5 p-5">
+  <footer class="container-fluid bg-body-tertiary p-5 text-center">
     <a href="#"><i class="fa-brands fa-facebook text-dark"></i></a>
     <a href="#"><i class="fa-brands fa-instagram text-dark"></i></a>
     <a href="#"><i class="fa-brands fa-x-twitter text-dark"></i></a>
