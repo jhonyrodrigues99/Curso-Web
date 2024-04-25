@@ -1,0 +1,78 @@
+Claro! Aqui está o código HTML para criar um menu de navegação usando Bootstrap com as suas especificações:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site com Bootstrap</title>
+  <!-- Adicionando o CSS do Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Adicionando CSS personalizado -->
+  <style>
+    .bg-dark {
+      background-color: #343a40 !important;
+    }
+    .text-white {
+      color: #ffffff !important;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Barra de Navegação -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container">
+    <!-- Botão de colapso para dispositivos menores -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links do Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <!-- Home -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <!-- A Banda (Dropdown) -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            A Banda
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Sobre Nós</a>
+            <a class="dropdown-item" href="#">Membros</a>
+            <a class="dropdown-item" href="#">Agenda</a>
+          </div>
+        </li>
+        <!-- Discografia -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Discografia</a>
+        </li>
+        <!-- Contacto -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <!-- Ícone de Pesquisa -->
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Adicionando a biblioteca do FontAwesome para o ícone de pesquisa -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<!-- Adicionando o JavaScript do Bootstrap (opcional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+```
+
+Este código cria um menu de navegação responsivo usando Bootstrap. Ele contém links para Home, A BANDA (com um dropdown), DISCOGRAFIA, CONTACTO e um ícone de pesquisa. O menu tem um fundo escuro e texto branco, como solicitado. Certifique-se de substituir os links "#" pelos URLs reais do seu site.
