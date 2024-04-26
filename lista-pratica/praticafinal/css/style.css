@@ -1,0 +1,63 @@
+@charset "UTF-8";   
+
+@font-face {
+    font-family: 'especial';
+    src: url("special.otf") format(opentype);
+}
+
+@font-face {
+    font-family: 'menu';
+    src: url("menu.ttf") format(truetype);
+}
+
+nav {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.217)
+}
+
+nav,#home {
+    font-family: 'menu', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.links:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+h1 {
+    font-family: 'especial', 'Times New Roman', Times, serif;
+}
+
+.teste {
+  width: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#reserve {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#show {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.395);
+}
+
+.distritos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contacto {
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+footer {
+  height: 150px;
+  margin-top: 100px;
+}
